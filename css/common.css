@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-break: break-all;
+    color: #333;
+}
+h2 {
+    font-family: BM Dohyeon;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header_wrapper {
+    width: 100%;
+    background-color: #FCF5EF;
+    display: flex;
+}
+
+.inner_header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_nav {
+    width: 100%;
+    height: 100%;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+.header_nav ul li {
+
+    text-align: center;
+    padding: 2.5%;
+}
+
+.header_nav ul li a {
+    display: inline-block;
+    font-family: BM Dohyeon;
+}
+
+.header_nav ul li a:hover {
+    color: #888;
+    border-bottom: solid 2px #ddd;
+}       
+
+.top_wrapper {
+    position: relative;/*元いた位置*/
+    width: 100%;
+    height: 584px;
+    overflow: hidden;
+    background: url("../img/Pexels Photo by Ketut Subiyanto.png");
+    background-size: cover;
+}
+
+.top_wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.top_inner {
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+}
+
+.top_inner h1 {
+    font-size: 48px;
+    font-family: Toppan Bunkyu Midashi Mincho;
+    transform: translate(197px,300px);
+    color: black;
+}   
+
+.about_section {
+    border-bottom: solid 1px #333;
+    margin-bottom: 10rem;
+    width: ;
+}
+.about_inner {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.title {
+    width: 40%;
+    font-size: 48px;
+    margin-bottom: 20%;  
+    border-bottom: 1px solid #333;
+}
+
+
+.intro_about_img {
+    width: 40%;
+}
+
+.box_wrapper {
+    background-color: #FDF9EB;
+    width: 50%;
+}
+
+.sub_title {
+    font-size: 36px;
+    font-family: Apple LiGothic;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.text p {
+    width: 90%;
+    margin: 15%;
+}
+
+.menu_box_wrapper {
+    background-color: #FFF7EF;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.food_wrapper {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10%;
+}
+
+.menu_title {
+    top: 5%;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: -5%;
+    font-size: 48px;
+}
+
+.food_title {
+    font-size: 40px;
+    margin-bottom: 10%;
+    border-bottom: solid 1px #333;
+    width: 20%;
+}
+.food_text ul {
+    letter-spacing: 1rem;
+    display: block;
+    font-size: 28px;
+    margin-bottom: 10%;
+    line-height: 250%;
+}
+
+.food_text span {
+    border-bottom: solid 1px #333;
+}
+.drink_wrapper {
+    padding-bottom: 10%;
+    justify-content: space-between;
+    width: 90%;
+    display: flex;
+}
+
+.drink_title {
+    font-size: 40px;
+    margin-bottom: 10%;
+    border-bottom: solid 1px #333;
+    width: 25%;
+}
+.drink_text ul {
+    letter-spacing: 1rem;
+    display: block;
+    font-size: 28px;
+    line-height: 250%;
+}
+
+.drink_text span {
+    border-bottom: solid 1px #333;
+}
+
+.sns_section {
+    border-top: solid 1px #333;
+    
+}
+
+.sns_inner {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.sns_title {
+    padding-top: 40%;
+    font-size: 48px;
+    border-bottom: solid 1px #333;
+    width: 50%;
+    margin-bottom: 40%;
+}
+
+.sns_logo ul {
+    justify-content: space-around;
+    display: block;
+    line-height: 10em;
+    margin-left: 40%;
+}
+
+.intro_img {
+    padding-top: 20%;
+}
+
+.contact_section {
+    background-image: url("../img/Rectangle 6.png");
+    height: 917px;
+    position: relative;
+}
+
+.button {
+    text-align: center;
+    width: 25%;
+    background: rgba(213, 213, 213, 0.71);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button a {
+    font-size: 48px;
+    font-family: BM Dohyeon;
+}
+
+.footer {
+    background-color: #888;
+    padding: 1.5%;
+    text-align: center;
+    font-size: 25px;
+}
